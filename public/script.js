@@ -3,7 +3,7 @@ function get() {
     let req = new XMLHttpRequest();
 
     // XMLHttpRequest.open(method: string, url: string)
-    req.open('GET', 'http://localhost:3000/all');
+    req.open('GET', 'http://18.197.102.62:3000/all');
 
     req.onreadystatechange = () => {
         // readyState of 4 - DONE (operation is complete).
